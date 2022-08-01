@@ -80,11 +80,7 @@ line-height: 72px;
 
 }
 
-.c1{
-    margin-top: 70px;
-    
-    
-}
+
 
 
 .grid1{
@@ -174,4 +170,129 @@ line-height: 72px;
 .heading2{
     position: relative;
     padding-top: 50px;
+}
+
+.mat{
+    
+    width: 1100px;
+    height: 400px;
+    margin-left: 175px;
+}
+
+
+
+
+
+
+.cell{
+    height: 247px;
+    width: 247px;
+    
+    border-radius: 50%;
+    
+  }
+
+  
+.container-slides{
+    width: 40%;
+    height: 400px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+.carousel{
+   width: 100%;
+}
+
+.carousel-cell {
+    width: 33%;
+    height: 200px;
+    /* flex-box, center image in cell */     
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-align-items: center;
+            align-items: center;
+  }
+  
+  .carousel-cell div {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    /* dim unselected */                    
+    opacity: 1;                              
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+    -webkit-filter: blur(5px);
+            filter: blur(5px);
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+            transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+  }
+  
+  /* brighten selected image */                 
+  .carousel-cell.is-selected div {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: none;
+            filter: none;
+  }
+  
+  @media screen and ( min-width: 768px ) {
+    .carousel-cell {
+      height: 400px;
+    }
+  }
+  
+  @media screen and ( min-width: 960px ) {
+    .carousel-cell {
+      width: 60%;
+    }
+  }
+  
+  /* buttons, no circle */                   
+  .flickity-prev-next-button {
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    opacity: 0.6;
+  }
+  .flickity-prev-next-button:hover {
+    background: transparent;
+    opacity: 1;
+  }
+  /* arrow color */                        
+  .flickity-prev-next-button .arrow {
+    fill: white;
+  }
+  .flickity-prev-next-button.no-svg {
+    color: white;
+  }
+  /* closer to edge */                     
+  .flickity-prev-next-button.previous { left: 0; }
+  .flickity-prev-next-button.next { right: 0; }
+  /* hide disabled button */               
+  .flickity-prev-next-button:disabled {
+    display: none;
+  }
+
+
+.img1{
+    height: 247px;
+    width: 247px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.p1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+
 }
