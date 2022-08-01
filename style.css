@@ -61,3 +61,67 @@ color: #FFFFFF;
     background: rgba(0, 0, 0, 0.47);
 
 }
+
+/* Partners */
+
+.partners{
+    margin-top: 30px;
+    height: 710px;
+}
+
+.heading{
+    text-align: center;
+
+}
+
+.c1{
+    margin-top: 70px;
+    margin-left: 151px;
+    
+}
+
+
+.grid1{
+    content: url(Lucas.jpeg);
+}    
+
+.grid2{
+    content: url(Murugappa.jpeg);
+}
+
+.grid3{
+    content: url(Rane.jpeg);
+}
+
+.grid4{
+    content: url(Jersey.jpeg);
+}
+
+.grid5{
+    content: url(Visteon.jpeg);
+}
+
+.grid6{
+    content: url(Arun.jpeg);
+}
+
+.grid7{
+    content: url(Herrenknecht.jpeg);
+}
+
+.grid8{
+    content: url(Tafe.jpeg);
+}
+.grid9{
+    content: url(TiCycle.jpeg);
+}
+
+
+
+.grid{
+    
+    width: 216px;
+    height: 187px;
+    background-color: red;
+
+}
