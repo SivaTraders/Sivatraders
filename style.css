@@ -64,6 +64,7 @@ color: #FFFFFF;
 
 /* Partners */
 
+
 .partners{
     margin-top: 30px;
     height: 710px;
@@ -71,12 +72,17 @@ color: #FFFFFF;
 
 .heading{
     text-align: center;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 72px;
 
 }
 
 .c1{
     margin-top: 70px;
-    margin-left: 151px;
+    
     
 }
 
@@ -122,6 +128,50 @@ color: #FFFFFF;
     
     width: 216px;
     height: 187px;
-    background-color: red;
+    
 
+}
+
+/* Materials */
+
+.materi{
+    margin-top: 30px;
+    height: 593px;
+    background-color: #291B00;
+    color: #FFFFFF;
+}
+
+.board{
+    margin-top: 30px;
+    height: 710px;
+    
+}
+
+
+
+@media screen and (max-width: 770px) {
+    .materi {
+        margin-top: 500px;
+        
+    }
+    
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .materi {
+        margin-top: 1300px;
+        
+    }
+    .grid{
+        margin-left: 100px;
+        
+    }
+
+    
+  }
+
+.heading2{
+    position: relative;
+    padding-top: 50px;
 }
