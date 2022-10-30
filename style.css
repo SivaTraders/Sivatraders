@@ -27,7 +27,7 @@ box-shadow: 0px 0px 22px rgba(12, 12, 12, 0.25);
     right: 0;
     bottom: 0;
     left: 0;
-    background-image:url('./tammy-gann-MSadqTz1TxM-unsplash.jpg');
+    background-image:url('./Images-scrap/tammy-gann-MSadqTz1TxM-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.7;
@@ -84,38 +84,38 @@ line-height: 72px;
 
 
 .grid1{
-    content: url(Lucas.jpeg);
+    content: url(./Images-scrap/Arun.jpeg);
 }    
 
 .grid2{
-    content: url(Murugappa.jpeg);
+    content: url(./Images-scrap/Murugappa.jpeg);
 }
 
 .grid3{
-    content: url(Rane.jpeg);
+    content: url(./Images-scrap/Rane.jpeg);
 }
 
 .grid4{
-    content: url(Jersey.jpeg);
+    content: url(./Images-scrap/Jersey.jpeg);
 }
 
 .grid5{
-    content: url(Visteon.jpeg);
+    content: url(./Images-scrap/Visteon.jpeg);
 }
 
 .grid6{
-    content: url(Arun.jpeg);
+    content: url(./Images-scrap/Arun.jpeg);
 }
 
 .grid7{
-    content: url(Herrenknecht.jpeg);
+    content: url(./Images-scrap/Herrenknecht.jpeg);
 }
 
 .grid8{
-    content: url(Tafe.jpeg);
+    content: url(./Images-scrap/Tafe.jpeg);
 }
 .grid9{
-    content: url(TiCycle.jpeg);
+    content: url(./Images-scrap/TiCycle.jpeg);
 }
 
 
@@ -194,7 +194,7 @@ line-height: 72px;
 
   
 .container-slides{
-    width: 40%;
+    width: 1100px;
     height: 400px;
    margin-left: auto;
    margin-right: auto;
@@ -224,7 +224,7 @@ line-height: 72px;
     max-width: 100%;
     max-height: 100%;
     /* dim unselected */                    
-    opacity: 1;                              
+    opacity: 0.7;                              
     -webkit-transform: scale(0.85);
             transform: scale(0.85);
     -webkit-filter: blur(5px);
@@ -246,13 +246,42 @@ line-height: 72px;
     .carousel-cell {
       height: 400px;
     }
-  }
-  
-  @media screen and ( min-width: 960px ) {
+
+
+
+  } 
+
+  @media screen and ( max-width: 960px ) {
     .carousel-cell {
       width: 60%;
     }
+
+    .container-slides{
+        width: auto;
+        height: 400px;
+    }
+    .carousel-cell div {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        /* dim unselected */                    
+        opacity: 0.7;                              
+        -webkit-transform: scale(0.85);
+                transform: scale(0.85);
+        -webkit-filter: blur(5px);
+                filter: blur(5px);
+        -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+                transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+      }
+
+      .carousel-cell {
+        height: 400px;
+      }
+
   }
+
+  
+  
   
   /* buttons, no circle */                   
   .flickity-prev-next-button {
@@ -320,9 +349,9 @@ line-height: 48px;
     position: relative;
     top: 35%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
 }
 
-.nav-link{
-    color:#FFFFFF;
-}
+.features{
+    margin-top: 30px;
+}   
