@@ -101,13 +101,13 @@
 }
 .one
 {
-    background-image: url("first.jpeg");
+    background-image: url("Images-Plastics/first.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .two
 {
-    background-image: url("second.png");
+    background-image: url("Images-Plastics/second.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -117,7 +117,7 @@
 }
 .three
 {
-    background-image: url("third.png");
+    background-image: url("Images-Plastics/third.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -126,7 +126,7 @@
     margin-top: 80px;
 }
 .four {
-    background-image: url("fourth.png");
+    background-image: url("Images-Plastics/fourth.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -134,7 +134,7 @@
     margin-top: 80px;
 }
 .five {
-    background-image: url("fifth.png");
+    background-image: url("Images-Plastics/fifth.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -143,7 +143,7 @@
     margin-top: 90px;
 }
 .six {
-    background-image: url("sixth.png");
+    background-image: url("Images-Plastics/sixth.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
