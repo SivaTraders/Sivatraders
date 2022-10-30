@@ -13,7 +13,7 @@
 }
 .nav-link-add 
 {
-    /* justify-content: space-between; */
+    justify-content: space-between;
     margin-right: 50px;
 
 }
@@ -61,6 +61,15 @@
     align-items: center;
 }
 
+.layer{
+    background: rgba(0, 0, 0, 0.47);
+        position: absolute;
+        height: 600px;
+        width: 100%;
+        z-index: 0;
+}
+
+
 .contents div
 {
     display: inline-block;
@@ -106,7 +115,8 @@
     background-repeat: no-repeat;
 }
 .two
-{
+{   background: #000000;
+
     background-image: url("Images-Plastics/second.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -153,9 +163,9 @@
 }
 
 .materi {
-    margin-top: 30px;
+   
     height: 593px;
-    background-color: #FFFFFF;
+   
     color: black;
 }
 
@@ -169,7 +179,7 @@
 
 @media screen and (max-width: 770px) {
     .materi {
-        margin-top: 500px;
+       
 
     }
 
@@ -178,9 +188,16 @@
 
 @media screen and (max-width: 600px) {
     .materi {
-        margin-top: 1300px;
+        
 
     }
+    .img1 {
+        height: 200px !important;
+        width: 200px !important;
+       
+        border-radius: 50%;
+    }
+    
 
     .grid {
         margin-left: 100px;
@@ -322,11 +339,11 @@
 
 /* arrow color */
 .flickity-prev-next-button .arrow {
-    fill: white;
+    fill: black;
 }
 
 .flickity-prev-next-button.no-svg {
-    color: white;
+    color: black;
 }
 
 /* closer to edge */
@@ -367,7 +384,7 @@
 }
 
 .proverb
-{
+{   text-align: center;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -468,10 +485,14 @@
     {
         width: 100%;
     }
-    img
+    .disappear
     {
         display: none;
     }
+    .layer{
+        height: 500px;
+    }
+
     .contents 
     {
         display: flex;
