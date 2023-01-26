@@ -32,7 +32,7 @@ box-shadow: 0px 0px 22px rgba(12, 12, 12, 0.25);
     right: 0;
     bottom: 0;
     left: 0;
-    background-image:url('./Images-scrap/tammy-gann-MSadqTz1TxM-unsplash.jpg');
+    background-image:url('./Images-scrap/home.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.7;
@@ -60,11 +60,17 @@ color: #FFFFFF;
 }
 .add-div{
     position: relative;
-    height: 100vh;
+    height: 90.5vh;
     background: rgba(0, 0, 0, 0.47);
 
 }
 
+.ap1 {
+    font-family: 'Poppins';
+    font-size: 28px;
+    
+    margin-top: 3%;
+}
 /* Partners */
 
 
@@ -147,7 +153,13 @@ margin-bottom: 2%;
     
     
 }
+.pcont{
+    margin-top: 18%;
+    text-align: left;
+    margin-left: 3%;
 
+    
+}
 
 
 @media screen and (max-width: 770px) {
@@ -155,8 +167,23 @@ margin-bottom: 2%;
         margin-top: 500px;
         
     }
+    .ap1 {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    .pcont{
+        margin-top: 9%;
+        text-align: left;
+    }
     
-    
+  }
+
+  @media only screen and (max-width: 900px){
+    hr{
+        display: none;
+    }
   }
 
   @media screen and (max-width: 600px) {
@@ -165,7 +192,8 @@ margin-bottom: 2%;
         
     }
     .grid{
-        margin-left: 100px;
+        margin-left: auto;
+        margin-right: auto;
         
     }
 
@@ -336,6 +364,10 @@ line-height: 48px;
     height: 187px;
     background-color: #261603;
     border-radius: 22px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .t1
@@ -361,3 +393,45 @@ line-height: 48px;
     padding: 2%;
     padding-bottom: 6%;
 }   
+
+.n1{
+    background: rgba(0, 0, 0, 0.68) !important;
+box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.25) !important;
+}
+
+
+
+.carousel-item{
+    height: 80%;
+}
+
+.d-block{
+    height: 433px;
+    border-radius: 20px;
+    
+
+}
+.abthead{
+    font-size: 40px;
+   text-align: center;
+   margin-top: 2%;
+   font-family: 'Poppins';
+
+}
+
+.carcont{
+    margin-bottom: 5%;
+}
+@media screen and ( max-width: 600px ) {
+    
+    
+    .pcont{
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    
+}
+.acnt{
+    margin-top: 2%;
+}
